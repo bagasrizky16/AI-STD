@@ -42,7 +42,7 @@ export function GallerySection() {
     <section
       id="galeri"
       aria-labelledby="galeri-heading"
-      className="py-12 md:py-16 bg-[#FAFAF7]"
+      className="py-12 md:py-16 bg-[#FAFAF7] scroll-mt-16 md:scroll-mt-20"
     >
       <div className="max-w-[1200px] mx-auto px-4 md:px-6 lg:px-10">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-5 mb-8">

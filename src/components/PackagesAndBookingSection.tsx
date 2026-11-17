@@ -82,7 +82,7 @@ export function PackagesAndBookingSection({
     <section
       id="paket"
       aria-labelledby="paket-heading"
-      className="py-12 md:py-16 bg-[#EFFDEE] border-y border-[#1B4332]/10"
+      className="py-12 md:py-16 bg-[#EFFDEE] border-y border-[#1B4332]/10 scroll-mt-16 md:scroll-mt-20"
     >
       <div className="max-w-[1200px] mx-auto px-4 md:px-6 lg:px-10">
         <div className="max-w-2xl mb-8">

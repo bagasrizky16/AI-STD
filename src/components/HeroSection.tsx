@@ -19,7 +19,7 @@ export function HeroSection({ onExplorePackages }: HeroSectionProps) {
       <div className="max-w-[1200px] mx-auto px-4 md:px-6 lg:px-10 pt-4 md:pt-6">
         {/* Dominant Hero Photo Frame */}
         <div className="relative overflow-hidden rounded-2xl md:rounded-3xl bg-[#1B4332] shadow-[0_6px_24px_-4px_rgba(27,67,50,0.16)]">
-          <div className="relative aspect-[4/5] sm:aspect-[16/10] lg:aspect-[16/8] w-full">
+          <div className="relative min-h-[500px] sm:min-h-0 aspect-[3/4] sm:aspect-[16/10] lg:aspect-[16/8] w-full">
             <ResilientImage
               src={VILLAGE_IMAGES.hero}
               alt="Panorama matahari terbit di atas sawah terasering hijau dan rumah joglo Desa Wisata Lereng Asri"
@@ -30,21 +30,21 @@ export function HeroSection({ onExplorePackages }: HeroSectionProps) {
             {/* Measured gradient scrim for WCAG AA/AAA text contrast */}
             <div
               aria-hidden="true"
-              className="absolute inset-0 bg-gradient-to-t from-[#0D1A12]/90 via-[#0D1A12]/45 to-[#0D1A12]/20"
+              className="absolute inset-0 bg-gradient-to-t from-[#0A140E]/92 via-[#0A140E]/60 to-[#0A140E]/25"
             />
           </div>
 
           {/* Foreground Hero Typography & Primary Action */}
           <div className="absolute inset-0 flex flex-col justify-end p-5 sm:p-8 lg:p-12">
             <div className="max-w-2xl">
-              <p className="inline-flex items-center gap-1.5 text-sm sm:text-[15px] font-semibold text-[#C1ECD4] mb-2.5">
-                <MapPin className="w-4 h-4 shrink-0" aria-hidden="true" />
+              <p className="inline-flex items-start gap-1.5 text-sm sm:text-[15px] font-semibold text-[#D6F5E3] mb-2.5">
+                <MapPin className="w-4 h-4 shrink-0 mt-0.5" aria-hidden="true" />
                 <span>Desa Wisata Lereng Asri · Ketinggian 1.150 mdpl, Boyolali</span>
               </p>
 
               <h1
                 id="hero-heading"
-                className="text-[30px] sm:text-[38px] lg:text-[44px] font-extrabold text-white leading-[1.2] tracking-[-0.02em] text-balance mb-3"
+                className="text-[28px] sm:text-[38px] lg:text-[44px] font-extrabold text-white leading-[1.2] tracking-[-0.02em] text-balance mb-3"
               >
                 Hirup Udara Segar &amp; Rasakan Hangatnya Alam Desa
               </h1>
@@ -76,12 +76,14 @@ export function HeroSection({ onExplorePackages }: HeroSectionProps) {
         </div>
 
         {/* Full-width 4-column key visitor info strip directly below hero */}
-        <div className="mt-4 bg-white rounded-2xl border border-[#1B4332]/10 shadow-[0_2px_8px_rgba(60,50,40,0.04)] grid grid-cols-2 lg:grid-cols-4 divide-y lg:divide-y-0 lg:divide-x divide-[#1B4332]/10">
+        <div className="mt-4 bg-white rounded-2xl border border-[#1B4332]/10 shadow-[0_2px_8px_rgba(60,50,40,0.04)] grid grid-cols-2 lg:grid-cols-4">
           {KEY_HIGHLIGHTS.map((item, idx) => (
             <div
               key={item.label}
-              className={`px-4 py-3.5 sm:px-6 sm:py-4 ${
-                idx % 2 === 1 ? 'border-l lg:border-l-0 border-[#1B4332]/10' : ''
+              className={`px-4 py-3.5 sm:px-6 sm:py-4 border-[#1B4332]/10 ${
+                idx < 2 ? 'border-b lg:border-b-0' : ''
+              } ${idx % 2 === 1 ? 'border-l lg:border-l-0' : ''} ${
+                idx > 0 ? 'lg:border-l' : ''
               }`}
             >
               <p className="text-[13px] font-medium text-[#414844]">{item.label}</p>

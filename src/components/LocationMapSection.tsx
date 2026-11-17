@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Car, Compass, ExternalLink, Footprints, MapPin, Mountain } from 'lucide-react';
+import { Car, Check, Compass, ExternalLink, Footprints, MapPin, Mountain } from 'lucide-react';
 import { MAP_LOCATIONS, MapLocation } from '../data/villageData';
 
 export function LocationMapSection() {
@@ -11,7 +11,7 @@ export function LocationMapSection() {
     <section
       id="lokasi"
       aria-labelledby="lokasi-heading"
-      className="py-12 md:py-16 bg-[#EFFDEE] border-t border-[#1B4332]/10"
+      className="py-12 md:py-16 bg-[#EFFDEE] border-t border-[#1B4332]/10 scroll-mt-16 md:scroll-mt-20"
     >
       <div className="max-w-[1200px] mx-auto px-4 md:px-6 lg:px-10">
         <div className="max-w-2xl mb-8">
@@ -185,18 +185,14 @@ export function LocationMapSection() {
 
               <div className="pt-4 border-t border-[#1B4332]/10">
                 <p className="text-[13px] font-bold text-[#131E15] mb-2">Fasilitas di Titik Ini:</p>
-                <div className="flex flex-wrap gap-x-3 gap-y-1 text-[14px] font-semibold text-[#2D6A4F]">
-                  {activeLoc.facilities.map((fac, i) => (
-                    <span key={fac}>
-                      {i > 0 && (
-                        <span className="text-[#717973] mr-3" aria-hidden="true">
-                          ·
-                        </span>
-                      )}
-                      {fac}
-                    </span>
+                <ul className="flex flex-wrap gap-x-5 gap-y-1.5 text-[14px] font-semibold text-[#2D6A4F]">
+                  {activeLoc.facilities.map((fac) => (
+                    <li key={fac} className="inline-flex items-center gap-1.5">
+                      <Check className="w-4 h-4 text-[#2D6A4F] shrink-0" aria-hidden="true" />
+                      <span>{fac}</span>
+                    </li>
                   ))}
-                </div>
+                </ul>
               </div>
             </div>
 
