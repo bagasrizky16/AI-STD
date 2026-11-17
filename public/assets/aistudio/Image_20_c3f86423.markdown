@@ -1,0 +1,211 @@
+---
+name: Lereng Asri Eco-Tourism
+colors:
+  surface: '#effdee'
+  surface-dim: '#d0decf'
+  surface-bright: '#effdee'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#e9f7e8'
+  surface-container: '#e4f2e3'
+  surface-container-high: '#deecdd'
+  surface-container-highest: '#d8e6d7'
+  on-surface: '#131e15'
+  on-surface-variant: '#414844'
+  inverse-surface: '#273329'
+  inverse-on-surface: '#e6f5e5'
+  outline: '#717973'
+  outline-variant: '#c1c8c2'
+  surface-tint: '#3f6653'
+  primary: '#012d1d'
+  on-primary: '#ffffff'
+  primary-container: '#1b4332'
+  on-primary-container: '#86af99'
+  inverse-primary: '#a5d0b9'
+  secondary: '#9a442d'
+  on-secondary: '#ffffff'
+  secondary-container: '#fc9174'
+  on-secondary-container: '#742814'
+  tertiary: '#002d0f'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#00461c'
+  on-tertiary-container: '#00bf58'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#c1ecd4'
+  primary-fixed-dim: '#a5d0b9'
+  on-primary-fixed: '#002114'
+  on-primary-fixed-variant: '#274e3d'
+  secondary-fixed: '#ffdbd2'
+  secondary-fixed-dim: '#ffb4a1'
+  on-secondary-fixed: '#3c0800'
+  on-secondary-fixed-variant: '#7c2e19'
+  tertiary-fixed: '#66ff8e'
+  tertiary-fixed-dim: '#3de273'
+  on-tertiary-fixed: '#002109'
+  on-tertiary-fixed-variant: '#005322'
+  background: '#effdee'
+  on-background: '#131e15'
+  surface-variant: '#d8e6d7'
+typography:
+  headline-xl:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 40px
+    fontWeight: '800'
+    lineHeight: 48px
+    letterSpacing: -0.02em
+  headline-xl-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 30px
+    fontWeight: '800'
+    lineHeight: 38px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 40px
+    letterSpacing: -0.015em
+  headline-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 24px
+    fontWeight: '700'
+    lineHeight: 32px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 22px
+    fontWeight: '700'
+    lineHeight: 28px
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 17px
+    fontWeight: '400'
+    lineHeight: 26px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 22px
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 18px
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 15px
+    fontWeight: '700'
+    lineHeight: 20px
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '700'
+    lineHeight: 14px
+    letterSpacing: 0.04em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-desktop: 1.5rem
+  margin: 1rem
+  margin-desktop: 2.5rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+The brand identity embodies authentic Indonesian village hospitality, sustainable agro-tourism, and rich volcanic highlands biodiversity. The target audience encompasses domestic weekend holidaymakers from major cities, international eco-conscious travelers, educational school groups, and cultural preservation enthusiasts seeking restorative retreats.
+
+The emotional signature is **warm, welcoming, grounding, and deeply connected to nature**. The visual style blends Modern Organic Tourism with Tactile Craft Minimalism:
+- Immersive high-contrast natural photography showcasing terraced rice paddies, morning mountain mist, and village artisan crafts.
+- Clean, open, breathable layouts anchored by warm earth tones and rich tropical foliage greens.
+- Generous touch ergonomics tailored for outdoor mobile use under bright sunlight.
+- Grounded visual reassurance reflecting community-owned, trustworthy rural hospitality.
+
+## Colors
+
+The palette draws inspiration directly from Mount Merapi/Merbabu foothills—volcanic soil, lush tropical canopies, and morning sunlight on teak terraces.
+
+- **Primary (`#1B4332`)**: Highland Pine. Used for critical navigation headers, primary headlines, strong accents, and grounding structural containers. Lighter tonal variants (`#2D6A4F`, `#40916C`) serve active interactive states and badges.
+- **Secondary (`#E07A5F`)**: Terracotta Clay. Signifies warmth, cultural festivities, village craft markets, highlight chips, and promotional banners.
+- **Tertiary (`#25D366`)**: Direct Messaging Green. Reserved exclusively for direct WhatsApp customer service inquiries, instant reservation flows, and real-time host chat.
+- **Neutral (`#263228`)**: Deep Peat. A softened charcoal-green for high-contrast, fatigue-free body text.
+- **Surfaces & Canvases**: The foundational canvas uses Morning Mist Cream (`#FAFAF7`), with surface cards elevated in pure clean white (`#FFFFFF`) to make photography and booking specs pop vibrantly.
+
+## Typography
+
+The design system employs **Plus Jakarta Sans** across all roles. Conceived and designed in Indonesia, it pairs modern geometric clarity with warm humanist open counters that ensure crisp legibility on low-cost mobile displays under bright outdoor light.
+
+- **Display & Headlines**: Heavy weights (`700`, `800`) provide an inviting yet authoritative editorial framing for Indonesian phrases (*"Jelajahi Desa"*, *"Paket Homestay"*).
+- **Price Display**: Numerical currency figures (e.g., `Rp 150.000`) use tabular figures with `label-lg` or `headline-md` weights for rapid scanning.
+- **Body & Captions**: Generous line height ensures effortless reading for multi-paragraph cultural guides and activity itineraries.
+
+## Layout & Spacing
+
+A mobile-first fluid layout architecture that smoothly expands to a centered desktop canvas with a maximum width of `1200px`.
+
+- **Mobile (< 768px)**: 4-column layout with `1rem` (16px) margins and `1rem` gutters. All primary action components have a minimum vertical touch height of `48px`. The lower `80px` of the viewport is protected by dynamic safe-area padding for the persistent WhatsApp booking bar.
+- **Tablet (768px - 1024px)**: 8-column layout with `1.5rem` margins. Activity listings transition into 2-column card grids.
+- **Desktop (> 1024px)**: 12-column layout with up to `2.5rem` outer margins. Booking summaries transform into an anchored sticky right-sidebar card, disabling the bottom mobile sheet.
+
+## Elevation & Depth
+
+Visual depth avoids cold synthetic grays in favor of soft, sunlight-filtered ambient drop shadows warmed with low-opacity umber:
+
+- **Flat / Ground Tier**: Canvas background `#FAFAF7` sits beneath base surfaces.
+- **Level 1 (Cards, List Elements)**: White background `#FFFFFF` with outline `1px solid rgba(27, 67, 50, 0.08)` and shadow `0 2px 8px rgba(60, 50, 40, 0.04)`.
+- **Level 2 (Sticky Headers, Interactive Modals, Active Filters)**: Shadow `0 6px 16px -2px rgba(45, 106, 79, 0.08), 0 2px 6px -1px rgba(60, 50, 40, 0.05)`.
+- **Level 3 (Mobile Sticky WhatsApp Bar & Overlays)**: Shadow `0 -4px 20px rgba(27, 67, 50, 0.12)` to establish clear elevation above scrollable content.
+
+## Shapes
+
+The design system adopts **Level 2 (Rounded)** shape geometry, reflecting the organic contours of natural landscapes, river stones, and terraced slopes.
+
+- Buttons and standard input fields use `0.5rem` (8px).
+- Cards, modal containers, and photo hero frames use `rounded-lg` (`1rem` / 16px).
+- Tags, status pills, and the WhatsApp sticky floating trigger utilize full pill geometry (`9999px`) to create distinction against structured content boxes.
+
+## Components
+
+### 1. Sticky Bottom Booking Bar (Mobile Exclusive)
+- **Container**: Pinned to bottom viewport, surface `#FFFFFF`, border-top `1px solid rgba(27, 67, 50, 0.1)`, `0 -4px 16px rgba(0,0,0,0.06)` shadow.
+- **Content**: Left side stacks the price preview (`body-sm` "Mulai dari", `headline-sm` "Rp 150.000/org"). Right side features the WhatsApp CTA.
+- **WhatsApp Button**: Background `#25D366`, text `#FFFFFF`, font-weight `700`, inline WhatsApp icon, minimum height `48px`, horizontal padding `1.25rem`, pill rounded (`9999px`).
+
+### 2. Destination & Package Cards
+- **Hero Image**: Aspect ratio `16:9` (mobile) or `4:3` (grid), `overflow: hidden`, `rounded-t-lg`. Displays overlay badges for categories (e.g., "Ekowisata", "Homestay", "Agro").
+- **Card Body**: Pure white background, `1rem` padding, containing title (`headline-sm`), brief descriptive text (`body-sm`), operational hours, and an explicit price tag.
+
+### 3. Badges and Chips
+- **Operational Badge**: Open status utilizes `#2D6A4F` text on `#E8F5E9` background. Closed/Seasonal uses `#E07A5F` on `#FDF2E9`.
+- **Price Badge**: Highlighted with soft Terracotta (`#E07A5F`) or Forest Green (`#1B4332`), bold tabular font, accompanied by clear terms (e.g., `Rp 25.000 / tiket masuk`).
+
+### 4. Inputs & Form Fields
+- Minimal height `48px` to ensure effortless field input on touchscreens.
+- Border `1.5px solid rgba(38, 50, 40, 0.2)`, active state changes border to `#2D6A4F` with an outer ring glow of `rgba(45, 106, 79, 0.15)`.
+
+### 5. Host & Community Story Avatars
+- Rounded circular frame (`9999px`) with `2px solid #E07A5F` border, pairing human face photography with verified village resident badges.
